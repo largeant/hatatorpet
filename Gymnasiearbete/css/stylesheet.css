@@ -1,0 +1,193 @@
+/*
+	Import Open Sans font from google fonts.
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700,300,600,400);
+/*
+	Remove margin and padding of everything.
+*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+/*
+	Set background of whole page.
+*/
+body{
+	background-color: #ffffff;
+	background-image: url(http://www.transparenttextures.com/patterns/fabric-of-squares.png);
+}
+.wrapper{
+	background: rgba(255,255,255,1);
+	width: 55vw;
+	margin: auto;
+	min-height: 500px;
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+	padding-bottom: 10px;
+}
+.wrapper h1{
+	font-weight: 300;
+	text-align: center;
+	padding: 20px 0 0 0;
+	font-size: 45px;
+	color: #333;
+	margin: 20px auto;
+	width: 90%;
+	border-bottom: 1px solid #333;
+}
+.wrapper .slide{
+	display: block;
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+	border: 10px solid rgba(255,255,255,0.8);
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.wrapper .login{
+	width: 90%;
+	max-width: 600px;
+	max-height: 300px;
+	height: 80%;
+	margin: 30px auto;
+	background: rgba(255,255,255,1);
+	color: #232426;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.wrapper .login h2{
+	font-weight: 300;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+.wrapper .login form{
+	font-weight: 300;
+	font-size: 22px;
+	text-align: center;
+	margin: 20px auto;
+	width: 70%;
+}
+.wrapper .login form input{
+	margin: 5px 0px;	
+	padding: 5px 10px;
+	border: none;
+	-moz-box-shadow:    inset 0 0 1px #000000;
+   	-webkit-box-shadow: inset 0 0 1px #000000;
+   	box-shadow:         inset 0 0 1px #000000;
+	border-radius: 5px;
+   	color: #232426;
+	font-size: 20px;
+	width: 80%;
+}
+.wrapper .login form button{
+	color: black;
+	font-weight: 500;
+	margin-top: 15px;
+	width: 45%;
+	font-size: 15px;
+	padding: 10px 5px;
+	background: rgba(22,116,169,0.9);
+	color: white;
+	border: 2px solid rgba(0,0,0,0.4);
+	transition: background 0.25s ease-in;
+}
+.wrapper .login form button:hover{
+	background: rgba(255,255,255,9);
+}
+.wrapper #register{
+	display: none;
+	position: absolute;
+	width: 55vw;
+	margin: auto;
+	min-height: 500px;
+	top: 20px;
+	background: white;
+	-webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.75);
+	margin-bottom: 20px;
+}
+.wrapper .register h2{
+	font-weight: 300;
+	text-align: center;
+	padding: 20px 0 0 0;
+	font-size: 45px;
+	color: black;
+	margin: 20px auto;
+	width: 90%;
+	border-bottom: 1px solid #111;
+}
+.wrapper .register .logo{
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+	display: block;
+}
+.wrapper .register form{
+	width: 50%;
+	background: white;
+	margin: 20px auto 0;
+	height: 50%;
+	font-weight: 300;
+	font-size: 22px;
+	text-align: center;
+	padding: 4px 0;
+}
+.wrapper .register form input{
+	margin: 12px 0px;	
+	padding: 5px 10px;
+	border: none;
+	-moz-box-shadow:    inset 0 0 1px #000000;
+   	-webkit-box-shadow: inset 0 0 1px #000000;
+   	box-shadow:         inset 0 0 1px #000000;
+	border-radius: 5px;
+   	color: #232426;
+	font-size: 20px;
+	width: 80%;
+}
+.wrapper .register form select{
+	margin: 12px 0px;
+	font-size: 15px;
+}
+.wrapper .register form button{
+	color: black;
+	font-weight: 500;
+	margin-top: 15px;
+	width: 45%;
+	font-size: 15px;
+	padding: 10px 5px;
+	background: rgba(22,116,169,0.9);
+	color: white;
+	border: 2px solid rgba(0,0,0,0.4);
+	transition: background 0.25s ease-in;
+	margin-bottom: 20px;
+}
+.wrapper .register form button:hover{
+	background: rgba(255,255,255,9);
+}
+.wrapper .register form img{
+	margin-top: -35px;
+	margin-bottom: 11px;
+	margin-left: 96%;
+	display: none;
+}
+@media screen and (max-width: 1100px){
+	.wrapper, .wrapper #register{
+		width: 75vw;
+	}
+}
+@media screen and (max-width: 780px){
+	.wrapper, .wrapper #register{
+		width: 96vw;
+		box-shadow: none;
+		height: 870px;
+		margin-top: -20px;
+	}
+	.wrapper #register{
+		min-height: 880px;
+	}
+}
